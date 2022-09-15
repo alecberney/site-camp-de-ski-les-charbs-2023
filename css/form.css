@@ -1,0 +1,48 @@
+.navbar
+{
+	background-color: #28313a;
+	font-size: 150%;
+}
+
+footer
+{
+  background-color: #28313a;
+  font-size: 150%;
+}
+
+h2, h3
+{
+	color: #28313a;
+}
+
+h4
+{
+	color: #28313a;
+}
+
+i
+{
+	color: white;
+}
+
+.icontact
+{
+	color: #28313a;
+}
+
+a + p + i
+{
+	color: #28313a;
+}
+
+.bg-cds-grey {
+	background-color: #28313a;
+}
+
+.text-blue-cds {
+	color: #a5dbe9;
+}
+
+.text-white {
+	color: white;
+}
