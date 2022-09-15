@@ -1,46 +1,52 @@
+:root {
+  --cds-blue: #a5dbe9;
+  --cds-grey: #28313a;
+}
+
+
 .navbar
 {
-	background-color: #28313a;
+	background-color: var(--cds-grey);
 	font-size: 150%;
 }
 
 footer
 {
-  background-color: #28313a;
+  background-color: var(--cds-grey);
   font-size: 150%;
 }
 
 h2, h3
 {
-	color: #28313a;
+	color: var(--cds-grey);
 }
 
 h4
 {
-	color: #28313a;
+	color: var(--cds-grey);
 }
 
-i
+em
 {
 	color: white;
 }
 
 .icontact
 {
-	color: #28313a;
+	color: var(--cds-grey);
 }
 
 a + p + i
 {
-	color: #28313a;
+	color: var(--cds-grey);
 }
 
 .bg-cds-grey {
-	background-color: #28313a;
+	background-color: var(--cds-grey);
 }
 
 .text-blue-cds {
-	color: #a5dbe9;
+	color: var(--cds-blue);
 }
 
 .text-white {
