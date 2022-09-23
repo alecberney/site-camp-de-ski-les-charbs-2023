@@ -1,19 +1,14 @@
-section.pricing {
-    background: #007bff;
-    background: linear-gradient(to right, #0062E6, #33AEFF);
+/* Variables */
+:root {
+  --cds-blue: #a5dbe9;
+  --cds-grey: #28313a;
+  --bronze: #CD7F32;
+  --silver: #C0C0C0;
+  --gold: #FFD700;
+  --platinium: #2cafb5;
 }
 
-.pricing .card {
-    border: none;
-    border-radius: 1rem;
-    transition: all 0.2s;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-}
-
-.pricing hr {
-    margin: 1.5rem 0;
-}
-
+/* Titles */
 .pricing .card-title {
     margin: 0.5rem 0;
     font-size: 0.9rem;
@@ -21,35 +16,51 @@ section.pricing {
     font-weight: bold;
 }
 
+.bronze-title {
+    color: var(--bronze);
+}
+
+.silver-title {
+    color: var(--silver);
+}
+
+.gold-title {
+    color: var(--gold);
+}
+
+.platinium-title {
+    color: var(--platinium);
+}
+
+/* Cards */
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    background-color: var(--cds-grey);
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
 .pricing .card-price {
     font-size: 3rem;
     margin: 0;
-}
-
-.pricing .card-price .period {
-    font-size: 0.8rem;
+    color: white;
 }
 
 .pricing ul li {
     margin-bottom: 1rem;
+    color: white;
 }
 
-.pricing .text-muted {
-    opacity: 0.7;
-}
-
-.pricing .btn {
-    font-size: 80%;
-    border-radius: 5rem;
-    letter-spacing: .1rem;
-    font-weight: bold;
-    padding: 1rem;
-    opacity: 0.7;
-    transition: all 0.2s;
+.pricing ul li strong {
+    color: var(--cds-blue);
 }
 
 /* Hover Effects on Card */
-
 @media (min-width: 992px) {
     .pricing .card:hover {
         margin-top: -.25rem;

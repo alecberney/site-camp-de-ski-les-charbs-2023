@@ -1,48 +1,28 @@
+/* Variables */
 :root {
   --cds-blue: #a5dbe9;
   --cds-grey: #28313a;
 }
 
-
-.navbar
-{
+/* Page parts */
+.navbar {
 	background-color: var(--cds-grey);
 	font-size: 150%;
 }
 
-footer
-{
+footer {
   background-color: var(--cds-grey);
   font-size: 150%;
 }
 
-h2, h3
-{
+
+/* Text tags */
+h2, h3, h4 {
 	color: var(--cds-grey);
 }
 
-h4
-{
-	color: var(--cds-grey);
-}
-
-em
-{
+em {
 	color: white;
-}
-
-.icontact
-{
-	color: var(--cds-grey);
-}
-
-a + p + i
-{
-	color: var(--cds-grey);
-}
-
-.bg-cds-grey {
-	background-color: var(--cds-grey);
 }
 
 .text-blue-cds {
@@ -52,3 +32,39 @@ a + p + i
 .text-white {
 	color: white;
 }
+
+/* Tables */
+thead {
+    background-color: var(--cds-grey);
+    color: white;
+}
+
+/* Background */
+.bg-cds-grey {
+	background-color: var(--cds-grey);
+}
+
+.bg-image {
+    width:100%;
+    height:800px;
+    background-size:cover;
+    background: url('../images/all-members.jpeg') no-repeat fixed center;
+}
+
+/* Scrolling nav */
+section {
+  padding: 150px 0;
+}
+
+.main-with-padding {
+  padding: 134px 0;
+}
+
+/* Others */
+.icontact {
+	color: var(--cds-grey);
+}
+
+/*a + p + i {
+	color: var(--cds-grey);
+}*/
