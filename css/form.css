@@ -5,7 +5,7 @@
 }
 
 /* Page parts */
-.navbar {
+nav {
 	background-color: var(--cds-grey);
 	font-size: 150%;
 }
