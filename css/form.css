@@ -33,6 +33,13 @@ em {
 	color: white;
 }
 
+.dark-title {
+    background-color: var(--cds-grey);
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
 /* Tables */
 thead {
     background-color: var(--cds-grey);
