@@ -21,8 +21,16 @@ h2, h3, h4 {
 	color: var(--cds-grey);
 }
 
+a {
+    color: var(--cds-blue);
+}
+
 em {
 	color: white;
+}
+
+strong {
+    color: var(--cds-blue);
 }
 
 .text-blue-cds {
@@ -64,14 +72,21 @@ section {
 }
 
 .main-with-padding {
-  padding: 134px 0;
+  padding: 200px 0;
+}
+
+/* Images */
+.sponsor-img-thin {
+    height: 120px;
+    width: auto;
+}
+
+.sponsor-img-large {
+    height: 300px;
+    width: auto;
 }
 
 /* Others */
 .icontact {
 	color: var(--cds-grey);
 }
-
-/*a + p + i {
-	color: var(--cds-grey);
-}*/
