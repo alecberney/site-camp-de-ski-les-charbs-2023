@@ -1,7 +1,9 @@
 /* Variables */
 :root {
-  --cds-blue: #a5dbe9;
-  --cds-grey: #28313a;
+    --cds-blue: #a5dbe9;
+    --cds-grey: #28313a;
+    --platinium: #2cafb5;
+    --gold: #FFD700;
 }
 
 /* Page parts */
@@ -39,6 +41,14 @@ strong {
 
 .text-white {
 	color: white;
+}
+
+.platinium-title {
+    color: var(--platinium);
+}
+
+.gold-title {
+    color: var(--gold);
 }
 
 .dark-title {

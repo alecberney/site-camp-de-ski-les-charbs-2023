@@ -1,11 +1,11 @@
 /* Variables */
 :root {
-  --cds-blue: #a5dbe9;
-  --cds-grey: #28313a;
-  --bronze: #CD7F32;
-  --silver: #C0C0C0;
-  --gold: #FFD700;
-  --platinium: #2cafb5;
+    --cds-blue: #a5dbe9;
+    --cds-grey: #28313a;
+    --platinium: #2cafb5;
+    --gold: #FFD700;
+    --silver: #C0C0C0;
+    --bronze: #CD7F32;
 }
 
 /* Titles */
@@ -16,20 +16,20 @@
     font-weight: bold;
 }
 
-.bronze-title {
-    color: var(--bronze);
-}
-
-.silver-title {
-    color: var(--silver);
+.platinium-title {
+    color: var(--platinium);
 }
 
 .gold-title {
     color: var(--gold);
 }
 
-.platinium-title {
-    color: var(--platinium);
+.silver-title {
+    color: var(--silver);
+}
+
+.bronze-title {
+    color: var(--bronze);
 }
 
 /* Cards */
